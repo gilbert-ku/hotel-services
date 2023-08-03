@@ -1,274 +1,86 @@
 {
-  "hotels": [
+  "ranches": [
     {
       "id": 1,
-      "image_url": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80",
-      "name": "Luxury Hotel",
-      "address": "123 Main Street, Nairobi Kenya",
-      "description": "Experience luxury at its finest in our elegant hotel.",
-      "price": 300,
-      "rating": 4.8,
-      "amenities": [
-        "Swimming Pool",
-        "Spa",
-        "Gym",
-        "Fine Dining"
-      ]
+      "image_url": "https://images.unsplash.com/photo-1496278154161-47363e912906?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmFuY2hlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "name": "Lazy P Ranch",
+      "location": "Olkeri, Nanyuki",
+      "size": "500 acres",
+      "description": "The Lazy P Ranch is a sprawling ranch located in the picturesque Montana countryside. It offers breathtaking views, ample grazing land, and excellent facilities for horse breeding and training."
+      
     },
     {
       "id": 2,
-      "image_url": "https://images.unsplash.com/photo-1625244724120-1fd1d34d00f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-      "name": "Comfort Inn",
-      "address": "456 Park Avenue, Nakuru - Kenya",
-      "description": "Enjoy a comfortable stay with all modern amenities.",
-      "price": 150,
-      "rating": 4.2,
-      "amenities": [
-        "Wi-Fi",
-        "Breakfast",
-        "Parking"
-      ]
+      "image_url": "https://images.unsplash.com/photo-1627334863919-35e2786f7e15?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cmFuY2hlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "name": "Rocking H Ranch",
+      "location": "Ololmasani, Narok",
+      "size": "1000 acres",
+      "description": "The Rocking H Ranch is a massive ranch nestled in the heart of Texas. It boasts vast open spaces, cattle ranching facilities, and a charming western-style ranch house."
+      
     },
     {
       "id": 3,
-      "image_url": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-      "name": "Seaside Resort",
-      "address": "789 Beach Road, Mombasa Kenya",
-      "description": "Relax and unwind with stunning views of the ocean.",
-      "price": 250,
-      "rating": 4.5,
-      "amenities": [
-        "Beach Access",
-        "Poolside Bar",
-        "Water Sports"
-      ]
+      "name": "Sunset Vista Ranch",
+      "location": "Delamare, Nakuru",
+      "size": "750 acres",
+      "description": "Sunset Vista Ranch is a beautiful ranch situated in the Sonoran Desert of Arizona. It offers a mix of desert landscapes, lush green areas, and modern amenities for a luxurious ranch living experience.",
+      "image_url": "https://images.unsplash.com/photo-1627334848323-6ce21facb54b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=988&q=80"
     },
     {
       "id": 4,
-      "image_url": "https://images.unsplash.com/photo-1535827841776-24afc1e255ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80",
-      "name": "Mountain Retreat",
-      "address": "101 Mountain View, Arush Tanzania ",
-      "description": "Escape to the serenity of the mountains and reconnect with nature.",
-      "price": 180,
-      "rating": 4.6,
-      "amenities": [
-        "Hiking Trails",
-        "Bonfire",
-        "Scenic Views"
-      ]
+      "name": "Majestic Meadows Ranch",
+      "location": "Nodisoni, Kilgoris",
+      "size": "1200 acres",
+      "description": "Majestic Meadows Ranch is a vast and scenic ranch in Colorado, surrounded by majestic mountains and abundant wildlife. It's an ideal destination for nature lovers and outdoor enthusiasts.",
+      "image_url": "https://images.unsplash.com/photo-1627334863919-35e2786f7e15?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80"
     },
     {
       "id": 5,
-      "image_url": "https://images.unsplash.com/photo-1596386461350-326ccb383e9f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1113&q=80",
-      "name": "Budget Inn",
-      "address": "222 Economy Street, Uganda",
-      "description": "Affordable and convenient accommodations for travelers on a budget.",
-      "price": 80,
-      "rating": 4.7,
-      "amenities": [
-        "Free Wi-Fi",
-        "Parking"
-      ]
+      "name": "Whispering Pines Ranch",
+      "location": "Oregon, Naivasha",
+      "size": "800 acres",
+      "description": "Nestled in the lush forests of Oregon, Whispering Pines Ranch offers a serene and secluded setting, perfect for those seeking a tranquil retreat.",
+      "image_url": "https://images.unsplash.com/photo-1641569556232-84eef2007c6f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80"
     },
     {
       "id": 6,
-      "image_url": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-      "name": "Family Paradise",
-      "address": "567 Fun Avenue, Abuja Nigeria",
-      "description": "Create lasting memories with your family in our fun-filled hotel.",
-      "price": 220,
-      "rating": 4.6,
-      "amenities": [
-        "Kids Club",
-        "Playground",
-        "Family Suites"
-      ]
+      "name": "Serenity Valley Ranch",
+      "location": "Wyomi, Naivasha",
+      "size": "900 acres",
+      "description": "Serenity Valley Ranch is a picturesque ranch in Wyoming, with rolling hills and pristine waterways. It's an idyllic place for ranching, fishing, and enjoying the great outdoors.",
+      "image_url": "https://images.unsplash.com/photo-1632720167297-0e5dbc8b9a50?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80"
     },
     {
       "id": 7,
-      "image_url": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=749&q=80",
-      "name": "Business Suites",
-      "address": "890 Corporate Road, Cape Town Sauth Africa",
-      "description": "Perfect accommodations for business travelers with all the essentials.",
-      "price": 290,
-      "rating": 4.3,
-      "amenities": [
-        "Business Center",
-        "Meeting Rooms",
-        "High-Speed Internet"
-      ]
+      "name": "Wilderness Trails Ranch",
+      "location": "Kirambei, Narok",
+      "size": "1500 acres",
+      "description": "Wilderness Trails Ranch is an expansive ranch in Montana, surrounded by unspoiled wilderness and offering a range of outdoor activities, including hiking, fishing, and horseback riding.",
+      "image_url": "https://plus.unsplash.com/premium_photo-1677850457403-24e7fa620594?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
     },
     {
       "id": 8,
-      "image_url": "https://images.unsplash.com/photo-1543968332-f99478b1ebdc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-      "name": "Historic Inn",
-      "address": "121 Historic Lane, Cape Town South Africa",
-      "description": "Step back in time and experience the charm of our historic inn.",
-      "price": 270,
-      "rating": 3.7,
-      "amenities": [
-        "Antique Furnishings",
-        "Cultural Tours"
-      ]
+      "name": "Golden Oak Ranch",
+      "location": "Mengit, Laikipia",
+      "size": "1100 acres",
+      "description": "Golden Oak Ranch is a charming ranch in California with golden meadows and oak trees. It's an excellent venue for events, weddings, and outdoor gatherings.",
+      "image_url": "https://plus.unsplash.com/premium_photo-1677575241227-d23219bef088?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80"
     },
     {
       "id": 9,
-      "image_url": "https://images.unsplash.com/photo-1573047330191-fb342b1be381?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-      "name": "Urban Retreat",
-      "address": "555 Downtown Avenue, Adis-Ababa Ethiopia",
-      "description": "Experience the excitement of the city while enjoying a relaxing stay.",
-      "price": 280,
-      "rating": 4.4,
-      "amenities": [
-        "City Tours",
-        "Rooftop Bar"
-      ]
+      "name": "Rustic Retreat Ranch",
+      "location": "NgomNgetet, Samburu",
+      "size": "850 acres",
+      "description": "Rustic Retreat Ranch is a peaceful retreat in the heart of Colorado. With its rustic cabins and natural beauty, it's a perfect escape from the hustle and bustle of city life.",
+      "image_url": "https://plus.unsplash.com/premium_photo-1677574872201-4bbd3c68fd6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80"
     },
     {
       "id": 10,
-      "image_url": "https://images.unsplash.com/photo-1598598795009-f80c5072e665?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
-      "name": "Spacious Suites",
-      "address": "444 Comfort Street, Nairobi Kenya",
-      "description": "Stretch out and enjoy the extra space in our luxurious suites.",
-      "price": 320,
-      "rating": 4.9,
-      "amenities": [
-        "Jacuzzi",
-        "Balcony",
-        "Room Service"
-      ]
-    },
-    {
-      "id": 11,
-      "image_url": "https://images.unsplash.com/photo-1544124499-58912cbddaad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80",
-      "name": "Cozy Cabin",
-      "address": "333 Woodsy Lane, Mombasa Kenya",
-      "description": "Embrace the coziness of our cabin nestled in the woods.",
-      "price": 200,
-      "rating": 5.1,
-      "amenities": [
-        "Fireplace",
-        "Nature Walks"
-      ]
-    },
-    {
-      "id": 12,
-      "image_url": "https://images.unsplash.com/photo-1620332372374-f108c53d2e03?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80",
-      "name": "Pet-Friendly Haven",
-      "address": "777 Pet Avenue, Dar-Salam Tanzania",
-      "description": "Bring your furry friends along to our pet-friendly hotel.",
-      "price": 210,
-      "rating": 4.3,
-      "amenities": [
-        "Pet Park",
-        "Pet-Sitting Services"
-      ]
-    },
-    {
-      "id": 13,
-      "image_url": "https://images.unsplash.com/photo-1562790351-d273a961e0e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=765&q=80",
-      "name": "Beachfront Paradise",
-      "address": "666 Ocean Boulevard, Kampala Uganda",
-      "description": "Wake up to the sound of waves in our beachfront paradise.",
-      "price": 280,
-      "rating": 4.7,
-      "amenities": [
-        "Private Beach",
-        "Beachfront Dining"
-      ]
-    },
-    {
-      "id": 14,
-      "image_url": "https://images.unsplash.com/photo-1455587734955-081b22074882?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-      "name": "Charming Boutique Hotel",
-      "address": "888 Quaint Street, New York USA",
-      "description": "Experience personalized service in our charming boutique hotel.",
-      "price": 830,
-      "rating": 4.6,
-      "amenities": [
-        "Art Gallery",
-        "Wine Tasting"
-      ]
-    },
-    {
-      "id": 15,
-      "image_url": "https://images.unsplash.com/photo-1543321269-9d86d3680e1c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-      "name": "Ski Lodge",
-      "address": "999 Snowy Lane, Hong Kong China",
-      "description": "Hit the slopes and then unwind in our cozy ski lodge.",
-      "price": 760,
-      "rating": 4.2,
-      "amenities": [
-        "Ski Rentals",
-        "Hot Tub"
-      ]
-    },
-    {
-      "id": 16,
-      "image_url": "https://images.unsplash.com/photo-1590912550138-e79ac2c5b8e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80",
-      "name": "Wellness Retreat",
-      "address": "333 Serenity Street, Hong Kong - China",
-      "description": "Rejuvenate your mind and body in our wellness-focused hotel.",
-      "price": 820,
-      "rating": 4.9,
-      "amenities": [
-        "Yoga Classes",
-        "Meditation Garden",
-        "Healthy Dining"
-      ]
-    },
-    {
-      "id": 17,
-      "image_url": "https://images.unsplash.com/photo-1614568112072-770f89361490?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
-      "name": "Modern Urban Hotel",
-      "address": "555 City Center, New-Yock USA",
-      "description": "Stay in style with our sleek and modern urban hotel.",
-      "price": 810,
-      "rating": 4.4,
-      "amenities": [
-        "Rooftop Pool",
-        "Fitness Center"
-      ]
-    },
-    {
-      "id": 18,
-      "image_url": "https://images.unsplash.com/photo-1574060603747-421196bce3f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
-      "name": "Rustic Lodge",
-      "address": "777 Countryside Road, Jerusalem Israel",
-      "description": "Escape to the countryside and experience rustic charm.",
-      "price": 980,
-      "rating": 4.8,
-      "amenities": [
-        "Campfire",
-        "Horseback Riding"
-      ]
-    },
-    {
-      "id": 19,
-      "image_url": "https://images.unsplash.com/photo-1570213489059-0aac6626cade?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-      "name": "Tropical Resort",
-      "address": "444 Palm Beach, Zanziba Tanzania",
-      "description": "Experience a tropical paradise with white sandy beaches.",
-      "price": 300,
-      "rating": 4.8,
-      "amenities": [
-        "Beachfront",
-        "Tropical Gardens"
-      ]
-    },
-    {
-      "id": 20,
-      "image_url": "https://images.unsplash.com/photo-1613561323381-fd3eb1a73ee8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-      "name": "Chateau Elegance",
-      "address": "101 Vineyard Lane, Kisumu Kenya",
-      "description": "Indulge in the luxurious elegance of our chateau-style hotel.",
-      "price": 380,
-      "rating": 4.9,
-      "amenities": [
-        "Wine Cellar",
-        "Gourmet Dining"
-      ]
-    
+      "name": "Starlight Valley Ranch",
+      "location": "Nyamache, Samburu",
+      "size": "1300 acres",
+      "description": "Starlight Valley Ranch is a sprawling ranch in Montana, renowned for its stargazing opportunities and vast open skies. It's an incredible location for astronomy enthusiasts.",
+      "image_url": "https://images.unsplash.com/photo-1545333547-01945a994684?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
     }
   ]
 }
